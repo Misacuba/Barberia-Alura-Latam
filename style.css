@@ -1,15 +1,167 @@
-body{
-    background: #d0e6f0;
+header{
+    background-color: #d0e6f0;
+    padding: 20px 0;
 }
 
-p{
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    /* position: relative; */
+    top: 110px;
+    /* left: 175px; */
+    right: 0;
+
+   
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:#0e76a8;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: auto;
+    /*border: 1px solid #0e76a8;*/
+    padding: 50px;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+    /*text-decoration: underline;*/
+}
+
+.productos li:active{
+    border-color: #088c19;
+    
+}
+
+.productos li{
+    display: inline-block;
+    border: 2px solid #0e76a8;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*background: #d0e6f0;*/
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 50px;
+    border-radius: 10px 25px 40px 50px;
 }
 
-h1{
-    color:#0e76a8;
+.productos h2{
+    font-size: 30px;
+    color :#0e76a8;
+    font-weight: bold;
 }
 
-em strong{
-    color:#0e76a8;
+.productos li:hover h2{
+    font-size: 33px;
 }
+
+
+.producto-descripcion{
+    font-size: 18px;
+    color: #0e76a8;
+}
+
+.producto-precio{
+    font-weight: bold;
+    color: #0e76a8;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #18628a;
+    padding: 40px;
+}
+.copyright{
+    color :#ffffff;
+    font-size: 13px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    border-color: #18628a  3px;
+}
+
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin:  0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+.checkbox{
+    margin: 20px 0 ;
+}
+
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+    /*transform: rotate(70deg);*/
+    
+}
+
+
+body{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIFsdA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+}
+
